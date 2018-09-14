@@ -11,17 +11,17 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author 743953
  */
-public class AgeCalculatorServlet extends HttpServlet {
+public class ArithmeticCalculatorServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/WEB-INF/agecalculator.jsp").forward(request,response);
+        getServletContext().getRequestDispatcher("/WEB-INF/arithmeticcalculator.jsp").forward(request,response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        
     }
 }

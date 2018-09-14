@@ -3,13 +3,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Age Calculator</title>
+        <title>Simple Servlet</title>
     </head>
     <body>
         <h1>Age Calculator</h1>
-        <form methoc="post" action="age">
-            Enter your age: <input type="text" name="age"><br>
+        
+        <form method="get" action="age">
+            Enter your age: <input type="text" name="ageinput"><br>
             <input type="submit" value="Submit">
         </form>
+            
+        <div>
+            <a href="arithmetic">Arithmetic Calculator</a>
+        </div>
+        
     </body>
 </html>
