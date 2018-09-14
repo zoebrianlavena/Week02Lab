@@ -48,7 +48,7 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
                         request.setAttribute("message", "Result: " + (Integer.parseInt(first) * Integer.parseInt(second)));
                         break;
                     case "%":
-                        request.setAttribute("message", "Result: " + (Integer.parseInt(first) / Integer.parseInt(second)));
+                        request.setAttribute("message", "Result: " + (Integer.parseInt(first) % Integer.parseInt(second)));
                         break;
                 }
                 
