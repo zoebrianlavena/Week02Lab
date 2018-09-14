@@ -7,17 +7,18 @@
     </head>
     <body>
         <h1>Arithmetic Calculator</h1>
-        <h1>Hello ${message}</h1>
+        
         <form method="post" action="arithmetic">
-            First: <input type="text" name="first"><br>
-            Second: <input type="text" name="second"><br>
-            <input type="submit" value="+">
-            <input type="submit" value="-">
-            <input type="submit" value="*">
-            <input type="submit" value="%">
+            First: <input type="text" name="first" value="${firstvalue}"><br>
+            Second: <input type="text" name="second" value="${secondvalue}"><br>
+            <input type="submit" value="+" name="operation">
+            <input type="submit" value="-" name="operation">
+            <input type="submit" value="*" name="operation">
+            <input type="submit" value="%" name="operation">
         </form>
         
         <div>
+            <br>${message}<br>
             <a href="age">Age Calculator</a>
         </div>
     </body>
