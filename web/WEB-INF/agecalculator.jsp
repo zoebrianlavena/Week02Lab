@@ -8,12 +8,13 @@
     <body>
         <h1>Age Calculator</h1>
         
-        <form method="get" action="age">
-            Enter your age: <input type="text" name="ageinput"><br>
+        <form method="post" action="age">
+            Enter your age: <input type="text" name="ageinput" value="${agevalue}"><br>
             <input type="submit" value="Submit">
         </form>
             
         <div>
+            <br>${message}<br>
             <a href="arithmetic">Arithmetic Calculator</a>
         </div>
         
